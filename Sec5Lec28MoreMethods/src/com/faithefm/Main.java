@@ -3,8 +3,8 @@ package com.faithefm;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-    //note that u can also use variable names instead of values
+        // write your code here
+        //note that u can also use variable names instead of values
         calculateScore(true, 800,5,100);
         calculateScore(true, 10000, 8, 200);
     }
