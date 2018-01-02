@@ -11,7 +11,7 @@ public class Main {
     public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
         if (gameOver){
             int finalScore = score + levelCompleted*bonus;
-            System.out.println("Your final score was " + finalScore);
+            System.out.println("Your final score was " + finalScore + "you win the game!");
         }
         //return -1;// needed only if you replace "void" in line 15 with e.g., int
 
